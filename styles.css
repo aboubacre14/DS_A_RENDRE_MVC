@@ -1,0 +1,44 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+.main-border {
+    border: 2px solid white; /* Changer la couleur de la bordure en blanc */
+    padding: 20px;
+    width: 80%;
+    box-sizing: border-box;
+    background-color: #f0f0f0; /* Couleur de fond pour la bordure principale */
+}
+table {
+    border-collapse: collapse;
+    width: 100%;
+    margin: 10px 0;
+    background-color: #ffffff; /* Couleur de fond pour les tableaux */
+}
+th {
+    border: 1px solid white; /* Changer la couleur de la bordure en blanc */
+    padding: 8px;
+    text-align: center; /* Centrer le texte des en-têtes */
+    background-color: #d3d3d3; /* Couleur de fond pour les en-têtes */
+}
+td {
+    border: 1px solid white; /* Changer la couleur de la bordure en blanc */
+    padding: 8px;
+    text-align: left; /* Aligner le texte des cellules de données à gauche */
+}
+tr:nth-child(even) {
+    background-color: #f9f9f9; /* Couleur de fond pour les lignes paires */
+}
+tr:nth-child(odd) {
+    background-color: #ffffff; /* Couleur de fond pour les lignes impaires */
+}
+.form-container {
+    margin-bottom: 20px;
+}
+#categorie {
+    width: 100%; /* Élargir la zone de saisie */
+    box-sizing: border-box; /* Inclure le padding et la bordure dans la largeur */
+}

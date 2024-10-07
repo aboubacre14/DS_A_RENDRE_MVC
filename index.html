@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+    <script type="module" src="controller.js" defer></script>
+</head>
+<body>
+    <div class="main-border">
+        <div class="form-container">
+            <form id="idform">
+                <input type="text" id="categorie" placeholder="Entrez une catégorie ou un nom">
+                <br>
+                <label>
+                    <input type="checkbox" id="stockOnly"> Afficher seulement les produits en stock
+                </label>
+            </form>
+        </div>
+        <table id="resultat">
+            <thead>
+                <tr>
+                    <th>Nom</th>
+                    <th>Prix</th>
+                </tr>
+            </thead>
+            <tbody>
+                <!-- Les résultats filtrés seront insérés ici -->
+            </tbody>
+        </table>
+    </div>
+</body>
+</html>
